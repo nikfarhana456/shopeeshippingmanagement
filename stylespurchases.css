@@ -1,0 +1,75 @@
+body {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.toolbar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.toolbar button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.toolbar button:hover {
+    background-color: #ff7b54;
+}
+
+#productView {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.product {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow: hidden;
+    background-color:white;
+}
+
+.product h3 {
+    margin-top: 0;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.product-image {
+    float: right;
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.product button {
+    background-color: #ff7b54;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #ff7b54;
+}
